@@ -119,7 +119,7 @@ namespace dmtipacs_uploader
                     }
 
                     // Send json to server
-                    var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://www.dmtipacs.com/api/procedureExternal/add");
+                    var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://xxxx.xxxx.xxxx/api/xxxx");
                     httpWebRequest.ContentType = "application/json";
                     httpWebRequest.Method = "POST";
                     using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
